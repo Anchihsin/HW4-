@@ -1,0 +1,38 @@
+var mySound;
+var mySound2;
+var mySound3;
+
+function preload() {
+  mySound = loadSound(A);
+	mySound2 = loadSound(B);
+	mySound3 = loadSound(C)
+}
+
+function setup() { 
+  mySound.setVolume(0.3);
+  mySound.play();
+	mySound2.setVolume(0.5);
+  mySound2.play();
+	mySound3.setVolume(0.8);
+  mySound3.play();
+  createCanvas(100, 100);
+}
+
+function draw() {
+  if (keyIsPressed) {
+    background(240);
+  } else {
+    background(120);
+  }
+}
+
+function keyPressed() {
+	print(key);
+	if (key == 'R') {
+  mySound.play();
+	} else if (key == 'A') {
+	mySound2.play();
+	} if (key == 'N') {
+	mySound3.play();
+	}
+}
