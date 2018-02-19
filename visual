@@ -5,7 +5,7 @@ var freqF = 246;
 
 var oscA, oscS, oscD, oscF;
 
-var playingA = faalse;
+var playingA = false;
 var playingS = false;
 var playingD = false;
 var playingF = false;
