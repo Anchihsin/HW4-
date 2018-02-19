@@ -1,0 +1,18 @@
+1. What is an object？
+* A Method to organize variables into groups 
+* A container for a collection of one’s data 
+
+
+2. How do you access a property of an object?
+* put syntax as “one’sname.one’sdata” (Ex.circle.x)
+
+
+3. What is the index of the first item in an array?
+* first item is 0, second item is 1 , third item is 2..etc 
+
+4. What syntax can you use to get the third item in an array?
+* var[2]
+
+
+5. How do you use a variable nad a loop to get every item in an array?
+* use if(index ==name.length) to check that ever item in the array has shown in order and then become a loop   
